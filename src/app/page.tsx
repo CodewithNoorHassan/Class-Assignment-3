@@ -1,12 +1,6 @@
 import React from "react"
-
-export const metadata = {
-  title: "Home"
-}
-
 export default function Home() {
   return (
-    <>
       <div className="flex mt-4 px-4">
         <div className="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mx-1">
           <h3 className="text-slate-900 dark:text-white text-base font-bold tracking-tight">
@@ -17,6 +11,5 @@ export default function Home() {
           </p>
         </div>
       </div>
-    </>
   )
 }
