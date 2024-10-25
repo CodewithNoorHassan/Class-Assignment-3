@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 export default function Header() {
     return (
-        <div>
+        <header>
             <nav className="flex items-center justify-between h-16 bg-[rgb(60,174,226)] px-10">
                 <div>
-                    <Image src="/logo.png" alt="logo" width={50} height={50} />
+                    <Image src="/logo.png" alt="Program Logo" width={50} height={50} />
                 </div>
                 <h1 className="flex-grow ml-6 text-lg md:text-xl lg:text-2xl text-gray-800 font-myr">
                     Tuition-Free Education Program on Latest Technologies
@@ -32,6 +32,6 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
-        </div>
+        </header>
     );
 }
